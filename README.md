@@ -2,6 +2,7 @@
 
 This project was made for school. That's why the documentation is in french.
 It uses differents library as LibCurl to analyse a text file and give a pourcentage of plagiat per url.
+In the project instructions, we were limited to window console, that's why we are using it.
 
 # Screenshots
 
