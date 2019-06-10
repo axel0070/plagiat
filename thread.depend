@@ -1,0 +1,331 @@
+# depslib dependency file v1.0
+1558509336 source:u:\thread\thread.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<pthread.h>
+
+1558822728 source:u:\thread\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<curl/curl.h>
+	<unistd.h>
+	<pthread.h>
+	"ThreadScreen.h"
+	"fileexplorer.h"
+
+1559508816 u:\thread\threadscreen.h
+	"def.h"
+
+1559493390 u:\thread\def.h
+
+1559509394 source:u:\thread\threadscreen.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<windows.h>
+	<string.h>
+	<unistd.h>
+	<pthread.h>
+	"ThreadScreen.h"
+
+1559657429 source:u:\thread\fileexplorer.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<dirent.h>
+	<sys/stat.h>
+	<unistd.h>
+	<pthread.h>
+	"def.h"
+	"fileexplorer.h"
+	"phase_2.h"
+
+1559510188 u:\thread\fileexplorer.h
+
+1558715534 source:u:\thread\proxy_checker.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<curl/curl.h>
+
+1553510570 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"typecheck-gcc.h"
+
+1553676960 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\curlver.h
+
+1553510568 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1553510568 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\easy.h
+
+1553510568 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\multi.h
+	"curl.h"
+
+1553510568 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1553510570 u:\thread\libs\curl-7.64.1-win32-mingw\include\curl\typecheck-gcc.h
+
+1558882050 source:u:\thread\phase_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"def.h"
+
+1560097057 source:c:\users\axels\desktop\thread\fileexplorer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<dirent.h>
+	<sys/stat.h>
+	<unistd.h>
+	<pthread.h>
+	<windows.h>
+	"def.h"
+	"fileexplorer.h"
+	"phase_2.h"
+
+1560090542 c:\users\axels\desktop\thread\def.h
+
+1560003286 c:\users\axels\desktop\thread\fileexplorer.h
+
+1560095226 source:c:\users\axels\desktop\thread\main.c
+	<stdio.h>
+	<stdlib.h>
+	<curl/curl.h>
+	<pthread.h>
+	"ThreadScreen.h"
+	"fileexplorer.h"
+
+1553514170 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"typecheck-gcc.h"
+
+1553680560 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\curlver.h
+
+1553514168 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1553514168 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\easy.h
+
+1553514168 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\multi.h
+	"curl.h"
+
+1553514168 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1553514170 c:\users\axels\desktop\thread\libs\curl-7.64.1-win32-mingw\include\curl\typecheck-gcc.h
+
+1560096334 c:\users\axels\desktop\thread\threadscreen.h
+	"def.h"
+
+1560096982 source:c:\users\axels\desktop\thread\phase_1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"def.h"
+
+1560000298 source:c:\users\axels\desktop\thread\proxy_checker.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<curl/curl.h>
+
+1560096334 source:c:\users\axels\desktop\thread\threadscreen.c
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+	<windows.h>
+	<string.h>
+	<unistd.h>
+	<pthread.h>
+	"ThreadScreen.h"
+
+1560096982 source:c:\users\axels\desktop\thread\phase_2.c
+	<stdio.h>
+	<tidy.h>
+	<string.h>
+	<tidybuffio.h>
+	<curl/curl.h>
+	"minunit.h"
+	"uri_encode.h"
+	"phase_2.h"
+	"ThreadScreen.h"
+
+1441623260 c:\users\axels\desktop\thread\libs\tidy-5.0.0-win32\include\tidy.h
+	"tidyplatform.h"
+	"tidyenum.h"
+
+1441623208 c:\users\axels\desktop\thread\libs\tidy-5.0.0-win32\include\tidyplatform.h
+	<ctype.h>
+	<stdio.h>
+	<setjmp.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<assert.h>
+	<malloc.h>
+	<pwd.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/utime.h>
+	<utime.h>
+	<sys/types.h>
+	"dmalloc.h"
+
+1441623208 c:\users\axels\desktop\thread\libs\tidy-5.0.0-win32\include\tidyenum.h
+
+1441623208 c:\users\axels\desktop\thread\libs\tidy-5.0.0-win32\include\tidybuffio.h
+	"tidyplatform.h"
+	"tidy.h"
+
+1558817624 c:\users\axels\desktop\thread\minunit.h
+
+1558817646 c:\users\axels\desktop\thread\uri_encode.h
+	<stdlib.h>
+	<inttypes.h>
+
+1558817698 source:c:\users\axels\desktop\thread\uri_encode.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"uri_encode.h"
+
+1560092058 source:c:\users\axels\desktop\thread\download.c
+	<stdio.h>
+	<tidy.h>
+	<stdlib.h>
+	<string.h>
+	<tidybuffio.h>
+	<curl/curl.h>
+	"minunit.h"
+	"uri_encode.h"
+	"minunit.h"
+	"def.h"
+
+1560092058 c:\users\axels\desktop\thread\phase_2.h
+	<stdio.h>
+	<tidy.h>
+	<string.h>
+	<tidybuffio.h>
+	<curl/curl.h>
+
+1559657299 source:u:\thread\download.c
+	<stdio.h>
+	<tidy.h>
+	<stdlib.h>
+	<string.h>
+	<tidybuffio.h>
+	<curl/curl.h>
+	"minunit.h"
+	"uri_encode.h"
+	"minunit.h"
+	"def.h"
+
+1441623260 u:\thread\libs\tidy-5.0.0-win32\include\tidy.h
+	"tidyplatform.h"
+	"tidyenum.h"
+
+1441623208 u:\thread\libs\tidy-5.0.0-win32\include\tidyplatform.h
+	<ctype.h>
+	<stdio.h>
+	<setjmp.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<assert.h>
+	<malloc.h>
+	<pwd.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<stat.h>
+	<sys/utime.h>
+	<utime.h>
+	<sys/types.h>
+	"dmalloc.h"
+
+1441623208 u:\thread\libs\tidy-5.0.0-win32\include\tidyenum.h
+
+1441623208 u:\thread\libs\tidy-5.0.0-win32\include\tidybuffio.h
+	"tidyplatform.h"
+	"tidy.h"
+
+1558817624 u:\thread\minunit.h
+
+1558817646 u:\thread\uri_encode.h
+	<stdlib.h>
+	<inttypes.h>
+
+1559493440 u:\thread\phase_2.h
+	<stdio.h>
+	<tidy.h>
+	<string.h>
+	<tidybuffio.h>
+	<curl/curl.h>
+
+1559657529 source:u:\thread\phase_2.c
+	<stdio.h>
+	<tidy.h>
+	<string.h>
+	<tidybuffio.h>
+	<curl/curl.h>
+	"minunit.h"
+	"uri_encode.h"
+	"phase_2.h"
+	"ThreadScreen.h"
+
+1558817698 source:u:\thread\uri_encode.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"uri_encode.h"
+

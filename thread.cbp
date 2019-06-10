@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="thread" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/thread" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/thread" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="libs/curl-7.64.1-win32-mingw/include" />
+			<Add directory="libs/openssl-1.1.1b-win32-mingw/include" />
+			<Add directory="libs/tidy-5.0.0-win32/include" />
+		</Compiler>
+		<Linker>
+			<Add library="libs/tidy-5.0.0-win32/lib/tidy.lib" />
+			<Add library="libs/tidy-5.0.0-win32/lib/tidys.lib" />
+			<Add library="libs/openssl-1.1.1b-win32-mingw/lib/libcrypto.a" />
+			<Add library="libs/openssl-1.1.1b-win32-mingw/lib/libcrypto.dll.a" />
+			<Add library="libs/openssl-1.1.1b-win32-mingw/lib/libssl.a" />
+			<Add library="libs/openssl-1.1.1b-win32-mingw/lib/libssl.dll.a" />
+			<Add library="libs/curl-7.64.1-win32-mingw/lib/libcurl.a" />
+			<Add library="libs/curl-7.64.1-win32-mingw/lib/libcurl.dll.a" />
+		</Linker>
+		<Unit filename="ThreadScreen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ThreadScreen.h" />
+		<Unit filename="def.h" />
+		<Unit filename="download.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileexplorer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fileexplorer.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="minunit.h" />
+		<Unit filename="phase_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="phase_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="phase_2.h" />
+		<Unit filename="proxy_checker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="uri_encode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="uri_encode.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
